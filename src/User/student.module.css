@@ -1,0 +1,28 @@
+.addstudent input{
+    margin-bottom: 25px;
+}
+
+.w_400{
+    width: 400px;
+    margin: auto;
+    display: block;
+    box-shadow: 2px 3px 12px 5px rgb(117, 103, 103);
+    padding: 30px;
+}
+.subbanner{
+    background-image: url(../../assets/images/gst-shutterstock.jpg);
+    padding: 20px 0px;
+}
+.subbanner h4, 
+.subbanner ul li,
+.subbanner ul li a {
+    color: white;
+}
+a{
+    text-decoration: none;
+}
+.breadcrumb-item+.breadcrumb-item::backdrop{
+    float: left;
+    color:white !important;
+    content: "-" !important;
+}

@@ -18,7 +18,7 @@ const DeleteStudent = () => {
 
     const deleteData=(id)=>{
         //alert(id);
-        axios.delete(`https://mern10ambackend.onrender.com/${id}`)
+        axios.delete(`https://mern10ambackend.onrender.com/student/${id}`)
         .then((res)=>{
             alert("Data deleted succ...");
           })

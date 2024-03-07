@@ -7,7 +7,7 @@ import { NavLink } from 'react-router-dom';
 const DeleteStudent = () => {
     const[student,setStudent]=useState([]);
     useEffect(()=>{
-  axios.get('https://mern10ambackend.onrender.com//student')
+  axios.get('https://mern10ambackend.onrender.com/student')
   .then(res=>{
     setStudent(res.data)
   })
